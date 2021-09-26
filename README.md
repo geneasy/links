@@ -63,6 +63,19 @@ jobs: ...
 
 在 GitHub 点击 [`links.yml`](links.yml) 文件，然后点击编辑按钮。修改提交。
 
+## Tip: 如何在本地修改数据，查看效果
+
+1. clone 项目到本地
+2. 安装 `geneasy`
+```sh
+npm i -g geneasy
+```
+3. 执行下面命令生成 `index.html`
+```sh
+geneasy -t index.hbs -o public/index.html links.yml
+```
+4. 执行 `geneasy server` 命令启动 web 服务器，访问 `http://127.0.0.1:8080` (端口看终端日志输出内容)
+
 ## 需要帮助？
 
 如果遇到问题，需要帮助，请添加 [issue](https://github.com/geneasy/links/issues)。

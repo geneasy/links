@@ -1,0 +1,168 @@
+---
+title: 友情链接 - GenEasy
+# logo: https://webstack.cc/assets/images/logo@2x.png
+keywords: 友情链接, GenEasy, Github, Github Pages, SSG
+description: 友情链接静态页面生成器。
+url: https://geneasy.github.io/links
+shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
+og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+home_url: https://github.com/geneasy/links
+github_url: https://github.com/geneasy/links
+about_url: https://github.com/geneasy/links
+link_exchange_url: https://github.com/geneasy/links
+# ga_tracking_code_id: G-ABCDEFG
+categories:
+  - category: 新添加
+    icon: linecons-star
+    links:
+      - title: P站问答
+        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
+        url: https://pzwd.net/
+        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
+        tags: 程序员,问答,社区,stackoverflow
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+        tags: 程序员,生活,创意
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+        tags: 程序员,生活,创意
+      - title: Pipecraft 社区
+        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss.cn.pipecraft.net/
+        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
+        tags: RSS,Atom,聚合新闻,内容订阅
+
+  - category: 推荐
+    hide_menu: true
+    icon: linecons-star
+    links:
+      - title: 抛砖问答
+        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
+        url: https://pzwd.net/
+        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
+        tags: 程序员,问答,社区,stackoverflow
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+        tags: 程序员,生活,创意
+      - title: Pipecraft 社区
+        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss.cn.pipecraft.net/
+        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
+        tags: RSS,Atom,聚合新闻,内容订阅
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+
+  - category: 程序员博客
+    icon: linecons-doc
+    links:
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+        tags: 程序员,生活,创意
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+
+  - category: 设计师博客
+    icon: linecons-doc
+    links:
+      - title: viggo
+        logo: http://work.viggoz.com/images/favicon.png
+        url: http://blog.viggoz.com/
+        description: Webstack 的设计师
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+
+  - category: 个人博客
+    icon: linecons-doc
+    links:
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+
+  - category: 社区
+    icon: linecons-doc
+    links:
+      - title: 抛砖问答
+        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
+        url: https://pzwd.net/
+        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
+        tags: 程序员,问答,社区,stackoverflow
+      - title: 独立开发者社区
+        logo: https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png
+        url: https://w2solo.com/
+        description: 「w2solo.com」独立开发者社区，由众多独立开发者维护，致力于搭建和维护好国内独立开发者圈子和氛围。
+      - title: Pipecraft 社区
+        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss.cn.pipecraft.net/
+        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
+        tags: RSS,Atom,聚合新闻,内容订阅
+      - title: P站问答
+        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
+        url: https://pzwd.net/
+        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
+        tags: 程序员,问答,社区,stackoverflow
+
+  - category: 友情推荐
+    icon: linecons-doc
+    links:
+      - title: WebStack.cc - 设计师网址导航
+        logo: https://webstack.cc/assets/images/logo-collapsed@2x.png
+        url: https://webstack.cc/cn/
+        description: WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。
+        tags: 程序员,生活,创意
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧
+        tags: 程序员,生活,创意
+      - title: Pipecraft 社区
+        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss.cn.pipecraft.net/
+        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
+        tags: RSS,Atom,聚合新闻,内容订阅
+      - title: 等你来加➕
+        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        url: https://github.com/geneasy/links
+        description: 快来交换友情链接吧

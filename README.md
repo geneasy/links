@@ -1,4 +1,4 @@
-# 友情链接（模版）
+# 友情链接（静态页面通用模版）
 
 https://geneasy.github.io/links
 
@@ -10,21 +10,23 @@ https://geneasy.github.io/links
 
 第一步：fork 这个项目
 
-第二部：进入 Settings > Pages, 启用 GitHub Pages 功能。分支选择 `gh-pages`。
+第二步：进入 Settings > Pages, 启用 GitHub Pages 功能。分支选择 `gh-pages`。
 
-第三部：访问你的 GitHub Pages 域名，看看是否正常显示。`https://你的用户名.github.io/links`
+第三步：2 分钟后，访问你的 GitHub Pages 域名，看看是否正常显示。`https://你的用户名.github.io/links/` 或 `https://你的用户名.github.io/links/index.html`
 
-第四部：
+第四步：进入 Actions，启用 Actions 功能，进入 Settings，启用 Issues 功能。
 
-4.1 如果你的网站是托管在 GitHub Pages 上面，配置已经结束
+第五步：
 
-4.2 如果你的网站部署在自己的服务器，需要添加一段 proxy 代码。
+5.1 如果你的网站是托管在 GitHub Pages 上面，配置已经结束
+
+5.2 如果你的网站部署在自己的服务器，需要添加一段 proxy 代码。
 
 以下是 nginx 代码示例
 
 ```
 location /links/ {
-    proxy_pass      https://你的用户名.github.io/links/index.html;
+    proxy_pass      https://你的用户名.github.io/links/;
     proxy_intercept_errors on;
 
     # allow GitHub to pass caching headers instead of using our own
@@ -34,9 +36,33 @@ location /links/ {
 }
 ```
 
-访问你的网站，确认是否成功。`https://你的域名/links/`
+5.3 如果你的网站部署在自己的服务器，不能（会）配置 proxy，你可以添加一个把生成的 HTML rsync 到你的服务器的 GitHub Action。
 
-4.3 如果你的网站是托管在 Vercel, Netlify 等静态页面托管平台，需要添加部署到这些平台的 GitHub Action。
+- [Burnett01/rsync-deployments](https://github.com/Burnett01/rsync-deployments)
+
+```yml
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - gh-pages
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.1
+        with:
+          switches: -avzr --delete
+          path: ./
+          remote_path: /var/www/html/links/
+          remote_host: example.com
+          remote_user: debian
+          remote_key: ${{ secrets.DEPLOY_KEY }}
+```
+
+5.4 如果你的网站是托管在 Vercel, Netlify 等静态页面托管平台，需要添加部署到这些平台的 GitHub Action。(与 5.3 类似)
 
 ```yml
 name: Build and Deploy
@@ -47,7 +73,7 @@ on:
 jobs: ...
 ```
 
-访问你的网站，确认是否成功。`https://你的域名/links/`
+第六步：访问你的网站，确认是否成功。`https://你的域名/links/`
 
 ## Tip: 如何修改 `links.yml`
 
@@ -65,20 +91,69 @@ jobs: ...
 
 ## Tip: 如何在本地修改数据，查看效果
 
-1. clone 项目到本地
+1. clone repository 到本地
+
+```sh
+git clone https://github.com/geneasy/links.git
+```
+
 2. 安装 `geneasy`
+
 ```sh
 npm i -g geneasy
 ```
+
 3. 执行下面命令生成 `index.html`
+
 ```sh
 geneasy -t index.hbs -o public/index.html links.yml
 ```
-4. 执行 `geneasy server` 命令启动 web 服务器，访问 `http://127.0.0.1:8080` (端口看终端日志输出内容)
+
+`index.html` 生成在 `public` 目录下，确认生成的内容。
+
+> [更多 `geneasy` 使用方法看官网](https://github.com/geneasy/geneasy)
+
+4. 启动 web 服务器，确认效果。
+
+可以使用 `http-server` 轻松完成。
+
+```sh
+npx http-server
+```
+
+或者安装后执行
+
+```sh
+npm i -g http-server
+http-server
+```
+
+访问 `http://127.0.0.1:8080` (端口看终端日志输出内容) 可以确认效果。
+
+> [更多 `http-server` 使用方法看官网](https://github.com/http-party/http-server)
+
+## 可不可以不使用 GitHub 管理数据，不使用 GitHub Action 生成 HTML 和发布？
+
+可以。
+
+首先，把这个 repository clone 到你的电脑或服务器里，修改 links.yml 里的数据。
+
+然后参考上面本地修改数据，查看效果的方法，生成 HTML，放到服务器指定文件夹里。
+
+```sh
+git clone https://github.com/geneasy/links.git
+npm i -g geneasy
+geneasy -t index.hbs -o /path/to/links/index.html links.yml
+```
 
 ## 需要帮助？
 
 如果遇到问题，需要帮助，请添加 [issue](https://github.com/geneasy/links/issues)。
+
+## Related
+
+- [geneasy](https://github.com/geneasy/geneasy) - A command line tool that can easily generate HTML, Markdown documents, etc.
+- [webstack](https://github.com/WebStackPage/WebStackPage.github.io) - ❤️ 静态响应式网址导航网站 - webstack.cc
 
 ## License
 

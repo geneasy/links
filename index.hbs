@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="viggo" />
-    <title>{{title}}</title>
+    <title>友情链接 - {{title}}</title>
     {{#if keywords}}
     <meta name="keywords" content="{{keywords}}">
     {{/if}}
@@ -35,7 +35,7 @@
     {{#if url}}
     <meta property="og:url" content="{{url}}">
     {{/if}}
-    <meta property="og:title" content="{{title}}">
+    <meta property="og:title" content="友情链接 - {{title}}">
     {{#if description}}
     <meta property="og:description" content="{{description}}">
     {{/if}}
@@ -45,7 +45,7 @@
     <meta property="og:site_name" content="{{title}}">
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:title" content="友情链接 - {{title}}">
     {{#if description}}
     <meta name="twitter:description" content="{{description}}">
     {{/if}}
@@ -166,7 +166,7 @@
                     <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{#if display_url}}{{{display_url}}}{{else}}{{{url}}}{{/if}}">
                         <div class="xe-comment-entry">
                             <a href="{{url}}" class="xe-user-img" target="_blank">
-                                <img data-src="{{logo}}" class="lozad img-circle" width="40">
+                                <img data-src="{{logo}}" class="lozad img-circle" width="40" alt="{{title}}">
                             </a>
                             <div class="xe-comment">
                                 <a href="{{url}}" class="xe-user-name overflowClip_1" target="_blank">

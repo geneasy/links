@@ -2,14 +2,14 @@
 ################
 ## 友情链接页面配置
 ################
-# 友情链接页面标题
-title: 友情链接 - GenEasy
+# 网站标题
+title: GenEasy
 # 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
 # 友情链接页面关键字（可选）
 keywords: 友情链接, GenEasy, Github, Github Pages, SSG
 # 友情链接描述（可选）
-description: 友情链接静态页面生成器。
+description: 友情链接静态页面通用模板。
 # 友情链接页面 URL（可选）
 url: https://geneasy.github.io/links
 # Favicon（可选）

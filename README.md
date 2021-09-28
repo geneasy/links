@@ -1,10 +1,10 @@
-# 友情链接（静态页面通用模版）
+# 友情链接（静态页面通用模板）
 
 https://geneasy.github.io/links
 
-这是一个通用的友情链接模版，任何类型的网站都可以拿去使用。
+这是一个通用的友情链接模板，任何类型的网站都可以拿去使用。
 
-此友情链接页面是使用 [GenEasy](https://github.com/geneasy/geneasy) 文档生成工具 + [WebStack](https://github.com/WebStackPage/WebStackPage.github.io) 模版创建的静态页面，托管在 GitHub Pages 服务器上面。
+此友情链接页面是使用 [GenEasy](https://github.com/geneasy/geneasy) 文档生成工具 + [WebStack](https://github.com/WebStackPage/WebStackPage.github.io) 模板创建的静态页面，托管在 GitHub Pages 服务器上面。
 
 当修改 `links.yml` 文件里的内容时，**GitHub Actions** 会自动更新 HTML 文件。不需要服务器，不需要数据库。
 
@@ -172,7 +172,7 @@ location /friends-links/ {
 }
 ```
 
-### Tip: 有其他模版或样式吗？
+### Tip: 有其他模板或样式吗？
 
 后续会添加，也非常欢迎你来贡献。
 

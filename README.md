@@ -2,6 +2,8 @@
 
 https://geneasy.github.io/links
 
+这是一个通用的友情链接模版，任何类型的网站都可以拿去使用。
+
 此友情链接页面是使用 [GenEasy](https://github.com/geneasy/geneasy) 文档生成工具 + [WebStack](https://github.com/WebStackPage/WebStackPage.github.io) 模版创建的静态页面，托管在 GitHub Pages 服务器上面。
 
 当修改 `links.yml` 文件里的内容时，**GitHub Actions** 会自动更新 HTML 文件。不需要服务器，不需要数据库。
@@ -75,21 +77,25 @@ jobs: ...
 
 第六步：访问你的网站，确认是否成功。`https://你的域名/links/`
 
-## Tip: 如何修改 `links.yml`
+第七步：在首页或所有页面的底部或导航位置加上这个友情链接页面的链接。
 
-### 方法 1
+## Tips
+
+### Tip: 如何修改 `links.yml`
+
+#### 方法 1
 
 把项目下载到本地，修改提交。
 
-### 方法 2
+#### 方法 2
 
 把现在 GitHub repository 的 URL 里的 `github.com` 改成 `github.dev`，会进入 web 版的 VS Code。在 web 版的 VS Code 里修改提交。
 
-### 方法 3
+#### 方法 3
 
 在 GitHub 点击 [`links.yml`](links.yml) 文件，然后点击编辑按钮。修改提交。
 
-## Tip: 如何在本地修改数据，查看效果
+### Tip: 如何在本地修改数据，查看效果
 
 1. clone repository 到本地
 
@@ -132,7 +138,7 @@ http-server
 
 > [更多 `http-server` 使用方法看官网](https://github.com/http-party/http-server)
 
-## 可不可以不使用 GitHub 管理数据，不使用 GitHub Action 生成 HTML 和发布？
+### Tip: 可不可以不使用 GitHub 管理数据，不使用 GitHub Action 生成 HTML 和发布？
 
 可以。
 
@@ -145,6 +151,30 @@ git clone https://github.com/geneasy/links.git
 npm i -g geneasy
 geneasy -t index.hbs -o /path/to/links/index.html links.yml
 ```
+
+### Tip: 友情链接的 URL 可以不用 `links`，用别的吗？
+
+可以，
+
+如果是网站部署在 GitHub Pages, 修改 GitHub repository 的名字。
+
+如果是自己的服务器，修改 proxy 配置的 `location`。
+
+```
+location /friends-links/ {
+    proxy_pass      https://你的用户名.github.io/links/;
+    proxy_intercept_errors on;
+
+    # allow GitHub to pass caching headers instead of using our own
+    expires off;
+    proxy_set_header   Host                   你的用户名.github.io;
+    proxy_set_header   X-Host                 你的用户名.github.io;
+}
+```
+
+### Tip: 有其他模版或样式吗？
+
+后续会添加，也非常欢迎你来贡献。
 
 ## 需要帮助？
 

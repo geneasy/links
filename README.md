@@ -160,7 +160,7 @@ geneasy -t index.hbs -o /path/to/links/index.html links.yml
 
 如果是自己的服务器，修改 proxy 配置的 `location`。
 
-```
+```nginx
 location /friends-links/ {
     proxy_pass      https://你的用户名.github.io/links/;
     proxy_intercept_errors on;
@@ -183,6 +183,7 @@ location /friends-links/ {
 ## Related
 
 - [geneasy](https://github.com/geneasy/geneasy) - A command line tool that can easily generate HTML, Markdown documents, etc.
+- [geneasy-nav](https://github.com/geneasy/nav) - 网址导航模板 - 这是一个通用的网址导航模板，任何类型的网站都可以拿去使用。
 - [webstack](https://github.com/WebStackPage/WebStackPage.github.io) - ❤️ 静态响应式网址导航网站 - webstack.cc
 
 ## License

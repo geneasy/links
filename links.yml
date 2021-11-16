@@ -40,12 +40,12 @@ categories:
         description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
         tags: 程序员,问答,社区,stackoverflow
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
         tags: 程序员,生活,创意
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
         tags: 程序员,生活,创意
@@ -64,40 +64,40 @@ categories:
         url: https://pzwd.net/
         description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
         tags: 程序员,问答,社区,stackoverflow
-      - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
-        url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-        tags: 程序员,生活,创意
+      - title: 聚客盒
+        logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
+        url: https://jukebox.pipecraft.net/
+        description: 聚合程序员博客的宝盒，是一个非商业性质的，独立的，开放的，程序员社区。
+        tags: 程序员,博客,社区
       - title: Pipecraft 社区
         logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss.cn.pipecraft.net/
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
-      - title: GenEasy
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
-        url: https://github.com/geneasy/geneasy
-        description: A command line tool that can easily generate HTML, Markdown documents, etc.
-        tags: cli,tools
+      - title: 纵横网址导航
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
+        url: https://zh.pipecraft.net/
+        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
+        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
 
   - category: 程序员博客
     icon: linecons-doc
     links:
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
         tags: 程序员,生活,创意
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
 
@@ -105,19 +105,19 @@ categories:
     icon: linecons-doc
     links:
       - title: viggo
-        logo: http://work.viggoz.com/images/favicon.png
+        logo: https://images.weserv.nl/?url=work.viggoz.com/images/favicon.png&w=60&h=60
         url: http://blog.viggoz.com/
         description: Webstack 的设计师
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
 
@@ -125,19 +125,19 @@ categories:
     icon: linecons-doc
     links:
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
 
@@ -158,11 +158,11 @@ categories:
         url: https://discuss.cn.pipecraft.net/
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
-      - title: P站问答
-        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
-        url: https://pzwd.net/
-        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
-        tags: 程序员,问答,社区,stackoverflow
+      - title: 聚客盒
+        logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
+        url: https://jukebox.pipecraft.net/
+        description: 聚合程序员博客的宝盒，是一个非商业性质的，独立的，开放的，程序员社区。
+        tags: 程序员,博客,社区
 
   - category: 友情推荐
     icon: linecons-doc
@@ -172,11 +172,11 @@ categories:
         url: https://webstack.cc/cn/
         description: WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。
         tags: 程序员,生活,创意
-      - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
-        url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-        tags: 程序员,生活,创意
+      - title: 纵横网址导航
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
+        url: https://zh.pipecraft.net/
+        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
+        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
       - title: Pipecraft 社区
         logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss.cn.pipecraft.net/

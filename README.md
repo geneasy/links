@@ -1,6 +1,6 @@
 # 友情链接（静态页面通用模板）
 
-https://geneasy.github.io/links
+<https://geneasy.github.io/links/>
 
 这是一个通用的友情链接模板，任何类型的网站都可以拿去使用。
 
@@ -26,7 +26,7 @@ https://geneasy.github.io/links
 
 以下是 nginx 代码示例
 
-```
+```nginx
 location /links/ {
     proxy_pass      https://你的用户名.github.io/links/;
     proxy_intercept_errors on;

@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="viggo" />
     <title>友情链接 - {{title}}</title>
     {{#if keywords}}
     <meta name="keywords" content="{{keywords}}">
@@ -116,6 +115,7 @@
                     </li>
                     {{/unless}}
                     {{/each}}
+                    {{#if link_exchange_url}}
                     <li>
                         <a href="{{link_exchange_url}}" target="_blank">
                             <i class="linecons-heart"></i>
@@ -123,6 +123,7 @@
                             <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
                     </li>
+                    {{/if}}
                     {{#if about_url}}
                     <li>
                         <a href="{{about_url}}" target="_blank">

@@ -34,24 +34,24 @@ categories:
   - category: 新添加
     icon: linecons-star
     links:
-      - title: P站问答
-        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
-        url: https://pzwd.net/
-        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
-        tags: 程序员,问答,社区,stackoverflow
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-        tags: 程序员,生活,创意
+      - title: DTO
+        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
+        url: https://dto.pipecraft.net/
+        description: 一个类似 Hacker News, Lobsters 的链接分享社区
+        tags: 程序员,社区
+      - title: BestXTools 社区
+        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
+        url: https://discuss-cn.bestxtools.com/
+        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
+        tags: 在线工具,周刊,社区
       - title: 等你来加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快来交换友情链接吧
         tags: 程序员,生活,创意
       - title: Pipecraft 社区
-        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss.cn.pipecraft.net/
+        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss-cn.pipecraft.net/
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
 
@@ -59,19 +59,19 @@ categories:
     hide_menu: true
     icon: linecons-star
     links:
-      - title: 抛砖问答
-        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
-        url: https://pzwd.net/
-        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
-        tags: 程序员,问答,社区,stackoverflow
-      - title: 聚客盒
-        logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
-        url: https://jukebox.pipecraft.net/
-        description: 聚合程序员博客的宝盒，是一个非商业性质的，独立的，开放的，程序员社区。
-        tags: 程序员,博客,社区
+      - title: DTO
+        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
+        url: https://dto.pipecraft.net/
+        description: 一个类似 Hacker News, Lobsters 的链接分享社区
+        tags: 程序员,社区
+      - title: BestXTools 社区
+        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
+        url: https://discuss-cn.bestxtools.com/
+        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
+        tags: 在线工具,周刊,社区
       - title: Pipecraft 社区
-        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss.cn.pipecraft.net/
+        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss-cn.pipecraft.net/
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
       - title: 纵横网址导航
@@ -104,10 +104,10 @@ categories:
   - category: 设计师博客
     icon: linecons-doc
     links:
-      - title: viggo
-        logo: https://images.weserv.nl/?url=work.viggoz.com/images/favicon.png&w=60&h=60
-        url: http://blog.viggoz.com/
-        description: Webstack 的设计师
+      - title: 等你来加➕
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
+        url: https://github.com/geneasy/links/issues
+        description: 快来交换友情链接吧
       - title: 等你来加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
@@ -144,18 +144,19 @@ categories:
   - category: 社区
     icon: linecons-doc
     links:
-      - title: 抛砖问答
-        logo: https://pzwd.net/assets/avatars/hVgLBGkh1gxRpWiR.png
-        url: https://pzwd.net/
-        description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
-        tags: 程序员,问答,社区,stackoverflow
-      - title: 独立开发者社区
-        logo: https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png
-        url: https://w2solo.com/
-        description: 「w2solo.com」独立开发者社区，由众多独立开发者维护，致力于搭建和维护好国内独立开发者圈子和氛围。
+      - title: DTO
+        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
+        url: https://dto.pipecraft.net/
+        description: 一个类似 Hacker News, Lobsters 的链接分享社区
+        tags: 程序员,社区
+      - title: BestXTools 社区
+        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
+        url: https://discuss-cn.bestxtools.com/
+        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
+        tags: 在线工具,周刊,社区
       - title: Pipecraft 社区
-        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss.cn.pipecraft.net/
+        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss-cn.pipecraft.net/
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
       - title: 聚客盒
@@ -178,8 +179,8 @@ categories:
         description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
         tags: 网址导航,中文垂直社区,微社区,垂直网址导航
       - title: Pipecraft 社区
-        logo: https://discuss.cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss.cn.pipecraft.net/
+        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://discuss-cn.pipecraft.net/
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
       - title: GenEasy

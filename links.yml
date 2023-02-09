@@ -34,7 +34,7 @@ categories:
   - category: 大家一起來
     icon: linecons-star
     links:
-      - title: DTO
+      - title: DTTTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
         url: https://dto.pipecraft.net/
         description: 一个类似 Hacker News, Lobsters 的链接分享社区

@@ -3,7 +3,7 @@
 ## 友情链接页面配置
 ################
 # 网站标题
-title: GenEasy
+title: SUBARIST.NET
 # 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
 # 友情链接页面关键字（可选）
@@ -31,7 +31,7 @@ link_exchange_url: https://github.com/geneasy/links/issues
 ## 友情链接数据
 ################
 categories:
-  - category: 新添加
+  - category: 大家一起來
     icon: linecons-star
     links:
       - title: P站问答

@@ -1,34 +1,34 @@
 ---
 ################
-## 友情链接页面配置
+## 友情鏈接頁面配置
 ################
-# 网站标题
+# 網站標題
 title: SUBARIST.NET
-# 网站 LOGO（可选）
+# 網站 LOGO（可選）
 logo: https://www.subarist.net/assets/logo-yzli5vki.png
-# 友情链接页面关键字（可选）
+# 友情鏈接頁面關鍵字（可選）
 keywords: 資源連結, GenEasy, Github, Github Pages, SSG
-# 友情链接描述（可选）
-description: 友情链接静态页面通用模板。
-# 友情链接页面 URL（可选）
+# 友情鏈接描述（可選）
+description: 友情鏈接靜態頁面通用模板。
+# 友情鏈接頁面 URL（可選）
 url: https://www.subarist.net/links/
-# Favicon（可选）
+# Favicon（可選）
 shortcut_icon: https://www.subarist.net/assets/favicon-3zw7clrx.png
-# 社交分享图片（可选）
+# 社交分享圖片（可選）
 og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
-# 主页 URL
+# 主頁 URL
 home_url: https://subarist.net
-# GitHub 链接（可选）
+# GitHub 鏈接（可選）
 github_url: https://github.com/geneasy/links
-# 网站 about 链接（可选）
+# 網站 about 鏈接（可選）
 about_url: https://www.subarist.net
-# 交换链接的 URL
+# 交換鏈接的 URL
 link_exchange_url: https://github.com/geneasy/links/issues
-# Google Analytics Code（可选）
+# Google Analytics Code（可選）
 # ga_tracking_code_id: G-ABCDEFG
 
 ################
-## 友情链接数据
+## 友情鏈接數據
 ################
 categories:
   - category: 最新上架
@@ -37,152 +37,152 @@ categories:
       - title: DTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
         url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
+        description: 一個類似 Hacker News, Lobsters 的鏈接分享社區
+        tags: 程序員,社區
+      - title: BestXTools 社區
         logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
         url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: 等你来加➕
+        description: BestXTools 社區是一個發現並分享有趣，有創意，免費、好用的工具的非商業性質的，獨立的，開放的社區。
+        tags: 在線工具,周刊,社區
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-        tags: 程序员,生活,创意
-      - title: Pipecraft 社区
+        description: 快來交換友情鏈接吧
+        tags: 程序員,生活,創意
+      - title: Pipecraft 社區
         logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
+        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
+        tags: RSS,Atom,聚合新聞,內容訂閱
 
-  - category: 推荐
+  - category: 推薦
     hide_menu: true
     icon: linecons-star
     links:
       - title: DTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
         url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
+        description: 一個類似 Hacker News, Lobsters 的鏈接分享社區
+        tags: 程序員,社區
+      - title: BestXTools 社區
         logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
         url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: Pipecraft 社区
+        description: BestXTools 社區是一個發現並分享有趣，有創意，免費、好用的工具的非商業性質的，獨立的，開放的社區。
+        tags: 在線工具,周刊,社區
+      - title: Pipecraft 社區
         logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-      - title: 纵横网址导航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
+        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
+        tags: RSS,Atom,聚合新聞,內容訂閱
+      - title: 縱橫網址導航
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">縱</text></svg>
         url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
-        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
+        description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
+        tags: 網址導航,中文垂直社區,微社區,垂直網址導航
 
-  - category: 程序员博客
+  - category: 程序員博客
     icon: linecons-doc
     links:
-      - title: 等你来加➕
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-        tags: 程序员,生活,创意
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+        tags: 程序員,生活,創意
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
+        description: 快來交換友情鏈接吧
 
-  - category: 设计师博客
+  - category: 設計師博客
     icon: linecons-doc
     links:
-      - title: 等你来加➕
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
+        description: 快來交換友情鏈接吧
 
-  - category: 个人博客
+  - category: 個人博客
     icon: linecons-doc
     links:
-      - title: 等你来加➕
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
-      - title: 等你来加➕
+        description: 快來交換友情鏈接吧
+      - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
-        description: 快来交换友情链接吧
+        description: 快來交換友情鏈接吧
 
-  - category: 社区
+  - category: 社區
     icon: linecons-doc
     links:
       - title: DTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
         url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
+        description: 一個類似 Hacker News, Lobsters 的鏈接分享社區
+        tags: 程序員,社區
+      - title: BestXTools 社區
         logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
         url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: Pipecraft 社区
+        description: BestXTools 社區是一個發現並分享有趣，有創意，免費、好用的工具的非商業性質的，獨立的，開放的社區。
+        tags: 在線工具,周刊,社區
+      - title: Pipecraft 社區
         logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
+        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
+        tags: RSS,Atom,聚合新聞,內容訂閱
       - title: 聚客盒
         logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
         url: https://jukebox.pipecraft.net/
-        description: 聚合程序员博客的宝盒，是一个非商业性质的，独立的，开放的，程序员社区。
-        tags: 程序员,博客,社区
+        description: 聚合程序員博客的寶盒，是一個非商業性質的，獨立的，開放的，程序員社區。
+        tags: 程序員,博客,社區
 
-  - category: 友情推荐
+  - category: 友情推薦
     icon: linecons-doc
     links:
-      - title: WebStack.cc - 设计师网址导航
+      - title: WebStack.cc - 設計師網址導航
         logo: https://webstack.cc/assets/images/logo-collapsed@2x.png
         url: https://webstack.cc/cn/
-        description: WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。
-        tags: 程序员,生活,创意
-      - title: 纵横网址导航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
+        description: WebStack - 收集國內外優秀設計網站、UI設計資源網站、靈感創意網站、素材資源網站，定時更新分享優質產品設計書簽。
+        tags: 程序員,生活,創意
+      - title: 縱橫網址導航
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">縱</text></svg>
         url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
-        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
-      - title: Pipecraft 社区
+        description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
+        tags: 網址導航,中文垂直社區,微社區,垂直網址導航
+      - title: Pipecraft 社區
         logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
+        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
+        tags: RSS,Atom,聚合新聞,內容訂閱
       - title: GenEasy
         logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
         url: https://github.com/geneasy/geneasy

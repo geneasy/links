@@ -5,13 +5,13 @@
 # 网站标题
 title: SUBARIST.NET
 # 网站 LOGO（可选）
-# logo: https://webstack.cc/assets/images/logo@2x.png
+logo: https://www.subarist.net/assets/logo-yzli5vki.png
 # 友情链接页面关键字（可选）
-keywords: 友情链接, GenEasy, Github, Github Pages, SSG
+keywords: 資源連結, GenEasy, Github, Github Pages, SSG
 # 友情链接描述（可选）
 description: 友情链接静态页面通用模板。
 # 友情链接页面 URL（可选）
-url: https://geneasy.github.io/links/
+url: https://www.subarist.net/links/
 # Favicon（可选）
 shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
 # 社交分享图片（可选）
@@ -21,7 +21,7 @@ home_url: https://subarist.net
 # GitHub 链接（可选）
 github_url: https://github.com/geneasy/links
 # 网站 about 链接（可选）
-about_url: https://github.com/geneasy/links
+about_url: https://www.subarist.net/p/2-about
 # 交换链接的 URL
 link_exchange_url: https://github.com/geneasy/links/issues
 # Google Analytics Code（可选）

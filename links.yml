@@ -21,7 +21,7 @@ home_url: https://subarist.net
 # GitHub 链接（可选）
 github_url: https://github.com/geneasy/links
 # 网站 about 链接（可选）
-about_url: https://www.subarist.net/p/2-about
+about_url: https://www.subarist.net
 # 交换链接的 URL
 link_exchange_url: https://github.com/geneasy/links/issues
 # Google Analytics Code（可选）
@@ -31,10 +31,10 @@ link_exchange_url: https://github.com/geneasy/links/issues
 ## 友情链接数据
 ################
 categories:
-  - category: 大家一起來
+  - category: 最新上架
     icon: linecons-star
     links:
-      - title: DTTTO
+      - title: DTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
         url: https://dto.pipecraft.net/
         description: 一个类似 Hacker News, Lobsters 的链接分享社区
